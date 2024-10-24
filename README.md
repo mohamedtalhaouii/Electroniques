@@ -34,35 +34,35 @@ Dans la logique combinatoire, la sortie dépend uniquement des entrées actuelle
   - Permet l'addition de deux bits.
   - Sortie : `Somme = A ⊕ B`, `Retenue = A · B`
   
-![Demi-Adder](https://github.com/user-attachments/assets/37797372-ca2e-4eb8-9217-bd775b12e1f6)
+![Half-Adder](https://github.com/user-attachments/assets/6565d1d7-28b6-4385-8204-bb6083dacebb)
 
 - **Additionneur Complet (Full-Adder)** :
   - Ajoute trois bits (A, B, et une retenue `C_in`).
   - Sortie : `Somme = A ⊕ B ⊕ C_in`, `Retenue = (A · B) + (C_in · (A ⊕ B))`
 
-![Full-Adder](https://github.com/user-attachments/assets/7e348512-439f-4247-8be5-19a2b45a603b)
+![Full-Adder](https://github.com/user-attachments/assets/60afee00-3e0e-4381-8bd1-2ae8769a24cb)
 
 - **Multiplexeur (MUX)** :
   - Sélectionne une entrée parmi plusieurs (2^n entrées pour n bits de sélection).
   - Formule de sortie : `S = A · ¬S + B · S`
 
-![MUX4](https://github.com/user-attachments/assets/346347a8-ef02-4f52-b276-64de6ac8418e)
+![MUX](https://github.com/user-attachments/assets/9f3a279a-1c50-43a0-a587-d940c0d50a35)
 
 - **Démultiplexeur (DEMUX)** :
   - Prend un signal d'entrée et le distribue sur plusieurs sorties.
   - Inverse du MUX.
 
-*(Ajouter la représentation ici)*
+![DEMUX](https://github.com/user-attachments/assets/b77412e8-14b8-4cba-ac46-74eeff30b8bf)
 
 - **Décodeur** :
   - Convertit un code binaire en une seule sortie activée (utilisé dans la gestion de la mémoire ou la sélection de lignes).
 
-*(Ajouter la représentation ici)*
+*(Soon)*
 
 - **Encodeur** :
   - Inverse du décodeur : il convertit plusieurs signaux d'entrée en un code binaire.
 
-*(Ajouter la représentation ici)*
+*(Soon)*
 
 ### **Simplification des Circuits Combinatoires :**
 - **Table de vérité** : Outil pour vérifier toutes les combinaisons possibles des entrées et leurs résultats.
