@@ -63,20 +63,20 @@ Dans la logique combinatoire, la sortie dépend uniquement des entrées actuelle
   - Convertit un code binaire en une seule sortie activée (utilisé dans la gestion de la mémoire ou la sélection de lignes).
   - **Logigramme :**
 
-*(Soon)*
+![Decodeur-4bit](https://github.com/user-attachments/assets/cf268a0c-0613-49ee-8dc9-4d65ca2b764e)
 
 ### Encodeur :
   - Inverse du décodeur : il convertit plusieurs signaux d'entrée en un code binaire.
   - **Logigramme :**
 
-*(Soon)*
+![Codeur-4bit](https://github.com/user-attachments/assets/4e370849-0151-4098-b7fa-423af09cf32b)
 
 ### Comparateur :
   - Un circuit qui compare deux nombres binaires et détermine leur relation (égal, supérieur, inférieur).
   - Sorties typiques : `A = B, A > B, A < B`.
   - **Logigramme :**
 
-![Comparateur 2bit](https://github.com/user-attachments/assets/07c13c1b-559f-4fca-b98e-41b52d6c464a)
+![Comparateur-2bit](https://github.com/user-attachments/assets/07c13c1b-559f-4fca-b98e-41b52d6c464a)
 
 ### Unité Arithmétique et Logique (UAL) :
   - L'UAL effectue des opérations arithmétiques et logiques telles que l'addition, la soustraction, ET, OU, etc.
