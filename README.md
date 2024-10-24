@@ -1,6 +1,9 @@
 # **1- Algèbre de Bool**
 L'algèbre de Bool est le fondement des circuits logiques, utilisée pour modéliser des opérations logiques binaires.
 
+## **Portes Logiques :**
+![Portes-Logique](https://github.com/user-attachments/assets/0afc9b1d-eef1-434d-8a1f-523a396cc172)
+
 ## **Table de vérité des portes logiques :**
 Chaque circuit combinatoire peut être décrit à l'aide d'une table de vérité, qui liste toutes les combinaisons possibles des entrées et leur résultat correspondant.
 
