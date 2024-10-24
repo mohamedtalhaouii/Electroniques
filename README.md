@@ -1,9 +1,7 @@
-# **Logique Combinatoire**
-
-### **1. Algèbre de Bool**
+# **1- Algèbre de Bool**
 L'algèbre de Bool est le fondement des circuits logiques, utilisée pour modéliser des opérations logiques binaires.
 
-### **Table de vérité des portes logiques :**
+## **Table de vérité des portes logiques :**
 Chaque circuit combinatoire peut être décrit à l'aide d'une table de vérité, qui liste toutes les combinaisons possibles des entrées et leur résultat correspondant.
 
 | Entrée A | Entrée B | ET (A . B) | OU (A + B) | XOR (A ⊕ B) | NON A |
@@ -15,55 +13,60 @@ Chaque circuit combinatoire peut être décrit à l'aide d'une table de vérité
 
 ---
 
-### **Théorèmes Importants :**
+## **Théorèmes Importants :**
 - **De Morgan** : `¬(A · B) = ¬A + ¬B` et `¬(A + B) = ¬A · ¬B`
 - **Annulation** : `A · 0 = 0`, `A + 1 = 1`
 - **Complémentarité** : `A · ¬A = 0`, `A + ¬A = 1`
 
-### **Simplification des Fonctions Booléennes :**
+## **Simplification des Fonctions Booléennes :**
 Utilisez les lois d’absorption, de distributivité, de De Morgan, etc., pour simplifier des expressions logiques complexes et minimiser le nombre de portes dans un circuit. Les tableaux de Karnaugh (K-map) sont souvent utilisés pour la simplification visuelle des fonctions booléennes jusqu'à 6 variables.
 
 ---
 
-## **2. Logique Combinatoire**
+# **2- Logique Combinatoire**
 Dans la logique combinatoire, la sortie dépend uniquement des entrées actuelles.
 
-### **Circuits combinatoires courants :**
+## **Circuits combinatoires courants :**
 
-- **Additionneur Demi (Half-Adder)** :
+### Additionneur Demi (Half-Adder) :
   - Permet l'addition de deux bits.
   - Sortie : `Somme = A ⊕ B`, `Retenue = A · B`
   
 ![Half-Adder](https://github.com/user-attachments/assets/6565d1d7-28b6-4385-8204-bb6083dacebb)
 
-- **Additionneur Complet (Full-Adder)** :
+### Additionneur Complet (Full-Adder) :
   - Ajoute trois bits (A, B, et une retenue `C_in`).
   - Sortie : `Somme = A ⊕ B ⊕ C_in`, `Retenue = (A · B) + (C_in · (A ⊕ B))`
 
 ![Full-Adder](https://github.com/user-attachments/assets/60afee00-3e0e-4381-8bd1-2ae8769a24cb)
 
-- **Multiplexeur (MUX)** :
+### Multiplexeur (MUX) :
   - Sélectionne une entrée parmi plusieurs (2^n entrées pour n bits de sélection).
   - Formule de sortie : `S = A · ¬S + B · S`
 
-![MUX](https://github.com/user-attachments/assets/9f3a279a-1c50-43a0-a587-d940c0d50a35)
+![MUX4](https://github.com/user-attachments/assets/9f3a279a-1c50-43a0-a587-d940c0d50a35)
 
-- **Démultiplexeur (DEMUX)** :
+### Démultiplexeur (DEMUX) :
   - Prend un signal d'entrée et le distribue sur plusieurs sorties.
   - Inverse du MUX.
 
-![DEMUX](https://github.com/user-attachments/assets/b77412e8-14b8-4cba-ac46-74eeff30b8bf)
+![DEMUX4](https://github.com/user-attachments/assets/b77412e8-14b8-4cba-ac46-74eeff30b8bf)
 
-- **Décodeur** :
+### Décodeur :
   - Convertit un code binaire en une seule sortie activée (utilisé dans la gestion de la mémoire ou la sélection de lignes).
 
 *(Soon)*
 
-- **Encodeur** :
+### Encodeur :
   - Inverse du décodeur : il convertit plusieurs signaux d'entrée en un code binaire.
 
 *(Soon)*
 
-### **Simplification des Circuits Combinatoires :**
+### Unité Arithmétique et Logique (UAL) :
+  - L'UAL effectue des opérations arithmétiques et logiques telles que l'addition, la soustraction, ET, OU, etc.
+
+![UAL](https://github.com/user-attachments/assets/1e562ed6-f423-456e-8f43-b50dc92a8164)
+
+## **Simplification des Circuits Combinatoires :**
 - **Table de vérité** : Outil pour vérifier toutes les combinaisons possibles des entrées et leurs résultats.
 - **Map de Karnaugh** : Utile pour simplifier des fonctions à plusieurs variables en repérant les groupes de 1.
