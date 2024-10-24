@@ -62,6 +62,12 @@ Dans la logique combinatoire, la sortie dépend uniquement des entrées actuelle
 
 *(Soon)*
 
+### Comparateur :
+  - Un circuit qui compare deux nombres binaires et détermine leur relation (égal, supérieur, inférieur).
+  - Sorties typiques : `A = B, A > B, A < B`.
+
+![Comparateur 2bit](https://github.com/user-attachments/assets/07c13c1b-559f-4fca-b98e-41b52d6c464a)
+
 ### Unité Arithmétique et Logique (UAL) :
   - L'UAL effectue des opérations arithmétiques et logiques telles que l'addition, la soustraction, ET, OU, etc.
 
