@@ -107,7 +107,7 @@ Dans la logique combinatoire, la sortie dépend uniquement des entrées actuelle
   - Sélectionne une entrée parmi plusieurs (2^n entrées pour n bits de sélection).
   - Formule de sortie : `S = A · ¬S + B · S`
 
-*(Ajouter la représentation ici)*
+![MUX4](https://github.com/user-attachments/assets/346347a8-ef02-4f52-b276-64de6ac8418e)
 
 - **Démultiplexeur (DEMUX)** :
   - Prend un signal d'entrée et le distribue sur plusieurs sorties.
