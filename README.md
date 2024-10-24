@@ -1,17 +1,9 @@
-### **Résumé : Algèbre de Bool + Logique Combinatoire**
+# **Logique Combinatoire**
 
-#### **1. Algèbre de Bool**
-L'algèbre de Bool est le fondement des circuits logiques, utilisée pour modéliser des opérations logiques binaires. Les concepts clés sont :
+### **1. Algèbre de Bool**
+L'algèbre de Bool est le fondement des circuits logiques, utilisée pour modéliser des opérations logiques binaires.
 
-#### **Opérations de base :**
-- **ET (AND)** : `A · B` ou `A ∧ B` donne 1 si **A** et **B** sont vrais.
-- **OU (OR)** : `A + B` ou `A ∨ B` donne 1 si **A** ou **B** (ou les deux) sont vrais.
-- **NON (NOT)** : `¬A` ou `A'` inverse la valeur de **A**.
-- **XOR (OU exclusif)** : `A ⊕ B` donne 1 si **A** ou **B** (mais pas les deux) est vrai.
-- **NAND** : Inverse de ET : `¬(A · B)`.
-- **NOR** : Inverse de OU : `¬(A + B)`.
-
-#### **Tables de vérité des portes logiques :**
+### **Tables de vérité des portes logiques :**
 
 1. **Porte AND (ET)**
 
@@ -76,20 +68,20 @@ L'algèbre de Bool est le fondement des circuits logiques, utilisée pour modél
 
 ---
 
-#### **Théorèmes Importants :**
+### **Théorèmes Importants :**
 - **De Morgan** : `¬(A · B) = ¬A + ¬B` et `¬(A + B) = ¬A · ¬B`
 - **Annulation** : `A · 0 = 0`, `A + 1 = 1`
 - **Complémentarité** : `A · ¬A = 0`, `A + ¬A = 1`
 
-#### **Simplification des Fonctions Booléennes :**
+### **Simplification des Fonctions Booléennes :**
 Utilisez les lois d’absorption, de distributivité, de De Morgan, etc., pour simplifier des expressions logiques complexes et minimiser le nombre de portes dans un circuit. Les tableaux de Karnaugh (K-map) sont souvent utilisés pour la simplification visuelle des fonctions booléennes jusqu'à 6 variables.
 
 ---
 
-### **2. Logique Combinatoire**
+## **2. Logique Combinatoire**
 Dans la logique combinatoire, la sortie dépend uniquement des entrées actuelles.
 
-#### **Circuits combinatoires courants :**
+### **Circuits combinatoires courants :**
 
 - **Additionneur Demi (Half-Adder)** :
   - Permet l'addition de deux bits.
@@ -125,6 +117,6 @@ Dans la logique combinatoire, la sortie dépend uniquement des entrées actuelle
 
 *(Ajouter la représentation ici)*
 
-#### **Simplification des Circuits Combinatoires :**
+### **Simplification des Circuits Combinatoires :**
 - **Table de vérité** : Outil pour vérifier toutes les combinaisons possibles des entrées et leurs résultats.
 - **Map de Karnaugh** : Utile pour simplifier des fonctions à plusieurs variables en repérant les groupes de 1.
