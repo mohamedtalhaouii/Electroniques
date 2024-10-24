@@ -3,68 +3,15 @@
 ### **1. Algèbre de Bool**
 L'algèbre de Bool est le fondement des circuits logiques, utilisée pour modéliser des opérations logiques binaires.
 
-### **Tables de vérité des portes logiques :**
+### **Table de vérité des portes logiques :**
+Chaque circuit combinatoire peut être décrit à l'aide d'une table de vérité, qui liste toutes les combinaisons possibles des entrées et leur résultat correspondant.
 
-1. **Porte AND (ET)**
-
-| A | B | A · B |
-|---|---|-------|
-| 0 | 0 |   0   |
-| 0 | 1 |   0   |
-| 1 | 0 |   0   |
-| 1 | 1 |   1   |
-
-2. **Porte OR (OU)**
-
-| A | B | A + B |
-|---|---|-------|
-| 0 | 0 |   0   |
-| 0 | 1 |   1   |
-| 1 | 0 |   1   |
-| 1 | 1 |   1   |
-
-3. **Porte NOT (NON)**
-
-| A | ¬A |
-|---|----|
-| 0 |  1 |
-| 1 |  0 |
-
-4. **Porte XOR (OU exclusif)**
-
-| A | B | A ⊕ B |
-|---|---|-------|
-| 0 | 0 |   0   |
-| 0 | 1 |   1   |
-| 1 | 0 |   1   |
-| 1 | 1 |   0   |
-
-5. **Porte NAND**
-
-| A | B | A ↑ B (¬(A · B)) |
-|---|---|-----------------|
-| 0 | 0 |        1        |
-| 0 | 1 |        1        |
-| 1 | 0 |        1        |
-| 1 | 1 |        0        |
-
-6. **Porte NOR**
-
-| A | B | A ↓ B (¬(A + B)) |
-|---|---|-----------------|
-| 0 | 0 |        1        |
-| 0 | 1 |        0        |
-| 1 | 0 |        0        |
-| 1 | 1 |        0        |
-
-7. **Porte XNOR (OU exclusif NON)**
-
-| A | B | A ≡ B (¬(A ⊕ B)) |
-|---|---|------------------|
-| 0 | 0 |         1        |
-| 0 | 1 |         0        |
-| 1 | 0 |         0        |
-| 1 | 1 |         1        |
+| Entrée A | Entrée B | ET (A . B) | OU (A + B) | XOR (A ⊕ B) | NON A |
+|----------|----------|------------|------------|-------------|-------|
+| 0        | 0        | 0          | 0          | 0           | 1     |
+| 0        | 1        | 0          | 1          | 1           | 1     |
+| 1        | 0        | 0          | 1          | 1           | 0     |
+| 1        | 1        | 1          | 1          | 0           | 0     |
 
 ---
 
