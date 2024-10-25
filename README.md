@@ -118,4 +118,4 @@ Dans la logique combinatoire, la sortie dépend uniquement des entrées actuelle
 
 ## **Simplification des Circuits Combinatoires :**
 - **Table de vérité** : Outil pour vérifier toutes les combinaisons possibles des entrées et leurs résultats.
-- **Map de Karnaugh** : Utile pour simplifier des fonctions à plusieurs variables en repérant les groupes de 1.
+- **Tableau de Karnaugh** : Utile pour simplifier des fonctions à plusieurs variables en repérant les groupes de 1.
