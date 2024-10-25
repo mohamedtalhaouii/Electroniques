@@ -1,7 +1,7 @@
 # Index
 
 <ul>
-    <li><a href="#algèbre-de-bool">Algèbre de Bool</a></li>
+    <li><a href="#1-algèbre-de-bool">Algèbre de Bool</a></li>
     <li><a href="#logique-combinatoire">Logique Combinatoire</a></li>
     <li><a href="#logique-séquentielle">Logique Séquentielle</a></li>
     <li><a href="#references">References</a></li>
