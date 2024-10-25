@@ -1,6 +1,21 @@
 # **1- Algèbre de Bool**
 L'algèbre de Bool est le fondement des circuits logiques, utilisée pour modéliser des opérations logiques binaires.
 
+- **Opérations Booléennes de Base :**
+  - **ET** (·) : $` A \cdot B `$
+  - **OU** (+) : $` A + B `$
+  - **NON** (−) : $` \overline{A} `$
+  
+- **Propriétés Importantes :**
+  - **Loi de l’Identité** : $` A + 0 = A `$, $` A \cdot 1 = A `$
+  - **Loi de l’Annulation** : $` A + 1 = 1 `$, $` A \cdot 0 = 0 `$
+  - **Loi de l’Idempotence** : $` A + A = A `$, $` A \cdot A = A `$
+  - **Loi de la Complémentation** : $` A + \overline{A} = 1 `$, $` A \cdot \overline{A} = 0 `$
+
+- **Théorèmes de De Morgan :**
+  - $` \overline{A \cdot B} = \overline{A} + \overline{B} `$
+  - $` \overline{A + B} = \overline{A} \cdot \overline{B} `$
+
 ## **Portes Logiques :**
 ![Portes-Logique](https://github.com/user-attachments/assets/0afc9b1d-eef1-434d-8a1f-523a396cc172)
 
@@ -13,16 +28,6 @@ Chaque circuit combinatoire peut être décrit à l'aide d'une table de vérité
 | 0        | 1        | 0          | 1          | 1           | 1     |
 | 1        | 0        | 0          | 1          | 1           | 0     |
 | 1        | 1        | 1          | 1          | 0           | 0     |
-
----
-
-## **Théorèmes Importants :**
-- **De Morgan** : `¬(A · B) = ¬A + ¬B` et `¬(A + B) = ¬A · ¬B`
-- **Annulation** : `A · 0 = 0`, `A + 1 = 1`
-- **Complémentarité** : `A · ¬A = 0`, `A + ¬A = 1`
-
-## **Simplification des Fonctions Booléennes :**
-Utilisez les lois d’absorption, de distributivité, de De Morgan, etc., pour simplifier des expressions logiques complexes et minimiser le nombre de portes dans un circuit. Les tableaux de Karnaugh (K-map) sont souvent utilisés pour la simplification visuelle des fonctions booléennes jusqu'à 6 variables.
 
 ---
 
