@@ -10,7 +10,7 @@
 <hr>
 
 # **Algèbre de Bool**
-### [🔝 Retour à l'index](#index)
+### [🔝 Retour à l'index](#index-des-chapitres)
 
 L'algèbre de Bool est le fondement des circuits logiques, utilisée pour modéliser des opérations logiques binaires.
 
@@ -45,7 +45,7 @@ Chaque circuit combinatoire peut être décrit à l'aide d'une table de vérité
 ---
 
 # **Logique Combinatoire**
-### [🔝 Retour à l'index](#index)
+### [🔝 Retour à l'index](#index-des-chapitres)
 
 Dans la logique combinatoire, la sortie dépend uniquement des entrées actuelles.
 
@@ -137,7 +137,7 @@ Dans la logique combinatoire, la sortie dépend uniquement des entrées actuelle
 
 
 # **Logique Séquentielle**
-### [🔝 Retour à l'index](#index)
+### [🔝 Retour à l'index](#index-des-chapitres)
 *(Pas Encore)*
 
 <hr>
