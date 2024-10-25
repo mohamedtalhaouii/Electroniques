@@ -40,7 +40,7 @@ Chaque circuit combinatoire peut être décrit à l'aide d'une table de vérité
 
 ---
 
-# **2- Logique Combinatoire**
+# **Logique Combinatoire**
 Dans la logique combinatoire, la sortie dépend uniquement des entrées actuelles.
 
 ## **Circuits combinatoires courants :**
