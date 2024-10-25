@@ -1,26 +1,37 @@
 # **Index**
 
-### **[Algèbre de Bool](#algèbre-de-bool)**
-  - #### [Opérations Booléennes de Base](#opérations-booléennes-de-base)
-  - #### [Propriétés Importantes](#propriétés-importantes)
-  - #### [Théorèmes de De Morgan](#théorèmes-de-de-morgan)
-  - #### [Symbole des Portes Logiques](#symbole-des-portes-logiques)
-  - #### [Table de vérité des portes logiques](#table-de-vérité-des-portes-logiques)
-  
-### **[Logique Combinatoire](#logique-combinatoire)**
-  - #### [Circuits combinatoires courants](#circuits-combinatoires-courants)
-    - ##### [Additionneur Demi](#additionneur-demi-half-adder)
-    - ##### [Additionneur Complet](#additionneur-complet-full-adder)
-    - ##### [Multiplexeur (MUX)](#multiplexeur-mux)
-    - ##### [Démultiplexeur (DEMUX)](#démultiplexeur-demux)
-    - ##### [Décodeur](#décodeur)
-    - ##### [Encodeur](#encodeur)
-    - ##### [Décodeur - 7-Segments](#décodeur---7-segments)
-    - ##### [Comparateur](#comparateur)
-    - ##### [Unité Arithmétique et Logique (UAL)](#unité-arithmétique-et-logique-ual)
-  - #### [Simplification des Circuits Combinatoires](#simplification-des-circuits-combinatoires)
-  
-### **[Logique Séquentielle](#logique-séquentielle)**
+<h1>Index</h1>
+
+<h2><a href="#algèbre-de-bool">Algèbre de Bool</a></h2>
+<ul>
+    <li><a href="#opérations-booléennes-de-base">Opérations Booléennes de Base</a></li>
+    <li><a href="#propriétés-importantes">Propriétés Importantes</a></li>
+    <li><a href="#théorèmes-de-de-morgan">Théorèmes de De Morgan</a></li>
+    <li><a href="#symbole-des-portes-logiques">Symbole des Portes Logiques</a></li>
+    <li><a href="#table-de-vérité-des-portes-logiques">Table de vérité des portes logiques</a></li>
+</ul>
+
+<h2><a href="#logique-combinatoire">Logique Combinatoire</a></h2>
+<ul>
+    <li>
+        <a href="#circuits-combinatoires-courants">Circuits combinatoires courants</a>
+        <ul>
+            <li><a href="#additionneur-demi-half-adder">Additionneur Demi</a></li>
+            <li><a href="#additionneur-complet-full-adder">Additionneur Complet</a></li>
+            <li><a href="#multiplexeur-mux">Multiplexeur (MUX)</a></li>
+            <li><a href="#démultiplexeur-demux">Démultiplexeur (DEMUX)</a></li>
+            <li><a href="#décodeur">Décodeur</a></li>
+            <li><a href="#encodeur">Encodeur</a></li>
+            <li><a href="#décodeur---7-segments">Décodeur - 7-Segments</a></li>
+            <li><a href="#comparateur">Comparateur</a></li>
+            <li><a href="#unité-arithmétique-et-logique-ual">Unité Arithmétique et Logique (UAL)</a></li>
+        </ul>
+    </li>
+    <li><a href="#simplification-des-circuits-combinatoires">Simplification des Circuits Combinatoires</a></li>
+</ul>
+
+<h2><a href="#logique-séquentielle">Logique Séquentielle</a></h2>
+
 
 <hr>
 
