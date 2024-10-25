@@ -1,34 +1,53 @@
-# Index
-<ul>
-    <li><a href="#algèbre-de-bool">Algèbre de Bool</a></li>
-    <li><a href="#logique-combinatoire">Logique Combinatoire</a></li>
-    <li><a href="#logique-séquentielle">Logique Séquentielle</a></li>
-</ul>
+# **Index**
+
+### **[Algèbre de Bool](#algèbre-de-bool)**
+  - #### [Opérations Booléennes de Base](#opérations-booléennes-de-base)
+  - #### [Propriétés Importantes](#propriétés-importantes)
+  - #### [Théorèmes de De Morgan](#théorèmes-de-de-morgan)
+  - #### [Symbole des Portes Logiques](#symbole-des-portes-logiques)
+  - #### [Table de vérité des portes logiques](#table-de-vérité-des-portes-logiques)
+  
+### **[Logique Combinatoire](#logique-combinatoire)**
+  - #### [Circuits combinatoires courants](#circuits-combinatoires-courants)
+    - ##### [Additionneur Demi](#additionneur-demi-half-adder)
+    - ##### [Additionneur Complet](#additionneur-complet-full-adder)
+    - ##### [Multiplexeur (MUX)](#multiplexeur-mux)
+    - ##### [Démultiplexeur (DEMUX)](#démultiplexeur-demux)
+    - ##### [Décodeur](#décodeur)
+    - ##### [Encodeur](#encodeur)
+    - ##### [Décodeur - 7-Segments](#décodeur---7-segments)
+    - ##### [Comparateur](#comparateur)
+    - ##### [Unité Arithmétique et Logique (UAL)](#unité-arithmétique-et-logique-ual)
+  - #### [Simplification des Circuits Combinatoires](#simplification-des-circuits-combinatoires)
+  
+### **[Logique Séquentielle](#logique-séquentielle)**
+
+<hr>
 
 # **Algèbre de Bool**
 ### [🔝 Back to Index](#index)
 
 L'algèbre de Bool est le fondement des circuits logiques, utilisée pour modéliser des opérations logiques binaires.
 
-- **Opérations Booléennes de Base :**
+### **Opérations Booléennes de Base :**
   - **ET** (·) : $` A \cdot B `$
   - **OU** (+) : $` A + B `$
   - **NON** (−) : $` \overline{A} `$
   
-- **Propriétés Importantes :**
+### **Propriétés Importantes :**
   - **Loi de l’Identité** : $` A + 0 = A `$, $` A \cdot 1 = A `$
   - **Loi de l’Annulation** : $` A + 1 = 1 `$, $` A \cdot 0 = 0 `$
   - **Loi de l’Idempotence** : $` A + A = A `$, $` A \cdot A = A `$
   - **Loi de la Complémentation** : $` A + \overline{A} = 1 `$, $` A \cdot \overline{A} = 0 `$
 
-- **Théorèmes de De Morgan :**
+### **Théorèmes de De Morgan :**
   - $` \overline{A \cdot B} = \overline{A} + \overline{B} `$
   - $` \overline{A + B} = \overline{A} \cdot \overline{B} `$
 
-## **Portes Logiques :**
+### **Symbole des Portes Logiques :**
 ![Portes-Logique](https://github.com/user-attachments/assets/0afc9b1d-eef1-434d-8a1f-523a396cc172)
 
-## **Table de vérité des portes logiques :**
+### **Table de vérité des portes logiques :**
 Chaque circuit combinatoire peut être décrit à l'aide d'une table de vérité, qui liste toutes les combinaisons possibles des entrées et leur résultat correspondant.
 
 | Entrée A | Entrée B | ET (A . B) | OU (A + B) | XOR (A ⊕ B) | NON A |
