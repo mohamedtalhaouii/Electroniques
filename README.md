@@ -131,5 +131,10 @@ Dans la logique combinatoire, la sortie dépend uniquement des entrées actuelle
 - **Table de vérité** : Outil pour vérifier toutes les combinaisons possibles des entrées et leurs résultats.
 - **Tableau de Karnaugh** : Utile pour simplifier des fonctions à plusieurs variables en repérant les groupes de 1.
 
+
+# **Logique Séquentielle**
+### [🔝 Back to Index](#index)
+*(Pas Encore)*
+
 <hr>
 <h3 align="center"> 🧑🏻‍💻 | Made By : <a href="https://github.com/mohamedtalhaouii" target="_blank">Mohamed Talhaoui</a></h3>
