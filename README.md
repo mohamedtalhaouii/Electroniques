@@ -71,6 +71,33 @@ Dans la logique combinatoire, la sortie dépend uniquement des entrées actuelle
 
 ![Codeur-4bit](https://github.com/user-attachments/assets/4e370849-0151-4098-b7fa-423af09cf32b)
 
+### Décodeur - 7-Segments :
+   - **Formules Algébriques pour le Décodeur BCD - 7 Segments :**
+
+1- **Segment a :**  
+   $` a = \overline{A} \, \overline{B} \, C D + \overline{A} B \, \overline{C} \, \overline{D} + A \, \overline{B} \, \overline{C} D + A B \, \overline{C} `$
+
+2- **Segment b :**  
+   $` b = \overline{A} B \, \overline{C} D + \overline{A} B C \, \overline{D} + A \, \overline{B} \, \overline{C} D + A B \, \overline{C} D `$
+
+3- **Segment c :**  
+   $` c = \overline{A} \, \overline{B} C \, \overline{D} + A B \, \overline{C} D + A B C \, \overline{D} `$
+
+4- **Segment d :**  
+   $` d = \overline{A} \, \overline{B} C D + \overline{A} B \, \overline{C} \, \overline{D} + \overline{A} B C D + A \, \overline{B} \, \overline{C} D + A \, \overline{B} C \, \overline{D} `$
+
+5- **Segment e :**  
+   $` e = \overline{A} \, \overline{B} C D + \overline{A} B \, \overline{C} D + A \, \overline{B} \, \overline{C} \, \overline{D} + A B \, \overline{C} \, \overline{D} `$
+
+6- **Segment f :**  
+   $` f = \overline{A} \, \overline{B} C D + \overline{A} \, \overline{B} \, \overline{C} D + \overline{A} B C \, \overline{D} + A B \, \overline{C} D `$
+
+7- **Segment g :**  
+   $` g = \overline{A} \, \overline{B} \, \overline{C} \, \overline{D} + \overline{A} B C \, \overline{D} + A \, \overline{B} C D + A B \, \overline{C} D `$
+  - **Logigramme :**
+
+![7-Segment](https://github.com/user-attachments/assets/cd81b6af-1950-4c2e-8e6a-081e28c74d43)
+
 ### Comparateur :
   - Un circuit qui compare deux nombres binaires et détermine leur relation (égal, supérieur, inférieur).
   - Sorties typiques : `A = B, A > B, A < B`.
