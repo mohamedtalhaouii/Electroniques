@@ -1,3 +1,12 @@
+# Index
+
+<ul>
+    <li><a href="#algèbre-de-bool">Algèbre de Bool</a></li>
+    <li><a href="#logique-combinatoire">Logique Combinatoire</a></li>
+    <li><a href="#logique-séquentielle">Logique Séquentielle</a></li>
+    <li><a href="#references">References</a></li>
+</ul>
+
 # **1- Algèbre de Bool**
 L'algèbre de Bool est le fondement des circuits logiques, utilisée pour modéliser des opérations logiques binaires.
 
