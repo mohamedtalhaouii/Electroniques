@@ -6,8 +6,7 @@
     <li><a href="#references">References</a></li>
 </ul>
 
-# **Algèbre de Bool** 
-## [🔝 Back to Index](#index)
+# **Algèbre de Bool** <span> |[🔝 Back to Index](#index) </span>
 
 L'algèbre de Bool est le fondement des circuits logiques, utilisée pour modéliser des opérations logiques binaires.
 
