@@ -1,4 +1,4 @@
-# **Index**
+# **Index des Chapitres**
 
 **[1- Algèbre de Bool](#algèbre-de-bool)**
 
