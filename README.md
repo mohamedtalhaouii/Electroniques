@@ -1,10 +1,10 @@
 # **Index**
 
-**[Algèbre de Bool](#algèbre-de-bool)**
+**[1- Algèbre de Bool](#algèbre-de-bool)**
 
-**[Logique Combinatoire](#logique-combinatoire)**
+**[2- Logique Combinatoire](#logique-combinatoire)**
 
-**[Logique Séquentielle](#logique-séquentielle)**
+**[3- Logique Séquentielle](#logique-séquentielle)**
 
 
 <hr>
