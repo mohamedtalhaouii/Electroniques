@@ -3,7 +3,6 @@
     <li><a href="#algèbre-de-bool">Algèbre de Bool</a></li>
     <li><a href="#logique-combinatoire">Logique Combinatoire</a></li>
     <li><a href="#logique-séquentielle">Logique Séquentielle</a></li>
-    <li><a href="#references">References</a></li>
 </ul>
 
 # **Algèbre de Bool**
