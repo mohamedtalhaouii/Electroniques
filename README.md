@@ -172,7 +172,7 @@ l’état des variables d’entrée mais aussi de l’état précédant des vari
 
 - **Chronogramme** :
 
-  *(Espace pour l'image du chronogramme de la bascule RS)*
+  ![RS](https://github.com/user-attachments/assets/70ed1c2e-9b9a-4b95-ad0f-5d4a36f9d076)
 
 ---
 
@@ -200,7 +200,7 @@ l’état des variables d’entrée mais aussi de l’état précédant des vari
 
 - **Chronogramme** :
 
-  *(Espace pour l'image du chronogramme de la bascule RSH avec horloge)*
+  ![RSH](https://github.com/user-attachments/assets/a3e87faf-c6b2-40a3-8c96-a4f5277f99b8)
 
 ---
 
@@ -228,7 +228,7 @@ l’état des variables d’entrée mais aussi de l’état précédant des vari
 
 - **Chronogramme** :
 
-  *(Espace pour l'image du chronogramme de la bascule JK avec horloge)*
+  ![JK](https://github.com/user-attachments/assets/b8aeb8a7-89b2-4eec-ba30-6819b3adf435)
 
 ---
 
@@ -254,7 +254,7 @@ l’état des variables d’entrée mais aussi de l’état précédant des vari
 
 - **Chronogramme** :
 
-  *(Espace pour l'image du chronogramme de la bascule D avec horloge)*
+  ![D](https://github.com/user-attachments/assets/071510a9-6c8b-4117-ac65-fd27ed56d168)
 
 ---
 
@@ -280,7 +280,6 @@ l’état des variables d’entrée mais aussi de l’état précédant des vari
 
 - **Chronogramme** :
 
-  *(Espace pour l'image du chronogramme de la bascule T avec horloge)*
-
+  ![T](https://github.com/user-attachments/assets/8b11b6bc-08ca-4441-a79c-d16663c8a7dd)
 <hr>
 <h3 align="center"> 🧑🏻‍💻 | Made By : <a href="https://github.com/mohamedtalhaouii" target="_blank">Mohamed Talhaoui</a></h3>
