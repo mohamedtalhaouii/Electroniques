@@ -148,7 +148,7 @@ l’état des variables d’entrée mais aussi de l’état précédant des vari
 
 | **Définition**                                                                                                                                                                                                                     | **Symbole**                  |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
-| La bascule SR est un type de bascule qui a deux entrées (Set et Reset) et une sortie. Elle permet de mémoriser l'état logique (1 ou 0) en fonction des valeurs de ses entrées. Elle fonctionne en mode asynchrone.                | ![SR](https://github.com/user-attachments/assets/f02b5c0d-099a-4c19-91aa-18bdc899bc41) |
+| La bascule SR est un type de bascule qui a deux entrées (Set et Reset) et une sortie. Elle permet de mémoriser l'état logique (1 ou 0) en fonction des valeurs de ses entrées. Elle fonctionne en mode asynchrone.                | *(Espace pour l'image du symbole de la bascule SR)* |
 
 - **Équation Logique** :
   - $` Q_{n+1} = S + \overline{R} \cdot Q_n `$
@@ -172,84 +172,111 @@ l’état des variables d’entrée mais aussi de l’état précédant des vari
 
 ---
 
-### 2. Bascule JK - **Synchrone**
+### 2. Bascule RSH (Reset-Set-Hold) - **Synchrone**
 
-| **Définition**                                                                                                                                                                                                                     | **Symbole**                  |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
-| La bascule JK est une amélioration de la bascule SR qui évite l'état indéterminé. Elle a deux entrées J (Set) et K (Reset) et nécessite un signal d'horloge pour changer d'état, ce qui en fait une bascule synchrone.             | ![JK](https://github.com/user-attachments/assets/c8bdcfc9-8aa0-47b3-93df-d820af6a430c) |
+| **Définition**                                                                                                                                                                                                                     | **Symbole (Front Montant)**                  | **Symbole (Front Descendant)**                  |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|-------------------------------------------------|
+| La bascule RSH (Reset-Set-Hold) synchronisée possède trois états : Reset, Set, et Hold. Elle nécessite un signal d'horloge pour changer d'état, ce qui la rend synchrone. "H" est ici l'entrée d'horloge.                           | *(Espace pour le symbole avec front montant)*| *(Espace pour le symbole avec front descendant)*|
 
 - **Équation Logique** :
-  - $` Q_{n+1} = J \cdot \overline{Q_n} + \overline{K} \cdot Q_n `$
+  - $` Q_{n+1} = S + \overline{R} \cdot Q_n `$ lorsque $` H `$ est sur un front montant
 
 - **Table de Vérité** :
 
-  | J       | K       | Q (Sortie)       | Q̅ (Sortie complémentaire) | **Commentaire**             |
-  |---------|---------|------------------|----------------------------|------------------------------|
-  | 0       | 0       | Qn (Maintien)    | Q̅n (Maintien)             | Pas de changement d'état     |
-  | 0       | 1       | 0                | 1                          | Réinitialisation             |
-  | 1       | 0       | 1                | 0                          | Mise à 1                     |
-  | 1       | 1       | Q̅n (Bascule)    | Qn (Bascule)               | Inversion de l'état (toggle) |
+  | S (Set) | R (Reset) | H (Horloge) | Q (Sortie)       | Q̅ (Sortie complémentaire) | **Commentaire**                   |
+  |---------|-----------|-------------|------------------|----------------------------|------------------------------------|
+  | 0       | 0         | 0           | Qn (Maintien)    | Q̅n (Maintien)             | Pas de changement d'état (Hold)   |
+  | 0       | 0         | 1 (↑)       | Qn (Maintien)    | Q̅n (Maintien)             | Pas de changement d'état          |
+  | 0       | 1         | 1 (↑)       | 0                | 1                          | Réinitialisation                  |
+  | 1       | 0         | 1 (↑)       | 1                | 0                          | Mise à 1                          |
 
 - **Logigramme** :
 
-  *(Espace pour l'image du logigramme de la bascule JK)*
+  *(Espace pour l'image du logigramme de la bascule RSH avec horloge)*
 
 - **Chronogramme** :
 
-  *(Espace pour l'image du chronogramme de la bascule JK)*
+  *(Espace pour l'image du chronogramme de la bascule RSH avec horloge)*
 
 ---
 
-### 3. Bascule D (Delay) - **Synchrone**
+### 3. Bascule JK - **Synchrone**
 
-| **Définition**                                                                                                                                                                                                                     | **Symbole**                  |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
-| La bascule D ou bascule à retard est utilisée pour introduire un délai dans un circuit. Elle a une seule entrée D et prend en compte cette entrée lors des transitions d'horloge, ce qui en fait une bascule synchrone.           | ![D](https://github.com/user-attachments/assets/cf3bc7e2-8f43-477e-b3f2-c90fe3a7407c) |
+| **Définition**                                                                                                                                                                                                                     | **Symbole (Front Montant)**                  | **Symbole (Front Descendant)**                  |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|-------------------------------------------------|
+| La bascule JK est une amélioration de la bascule SR qui évite l'état indéterminé. Elle a deux entrées J (Set) et K (Reset) et nécessite un signal d'horloge pour changer d'état, ce qui en fait une bascule synchrone.             | *(Espace pour le symbole avec front montant)*| *(Espace pour le symbole avec front descendant)*|
 
 - **Équation Logique** :
-  - $` Q_{n+1} = D `$
+  - $` Q_{n+1} = J \cdot \overline{Q_n} + \overline{K} \cdot Q_n `$ lorsque l’horloge est sur un front montant.
 
 - **Table de Vérité** :
 
-  | D       | Q (Sortie)       | Q̅ (Sortie complémentaire) | **Commentaire**                 |
-  |---------|------------------|----------------------------|----------------------------------|
-  | 0       | 0                | 1                          | Réinitialisation                |
-  | 1       | 1                | 0                          | Stockage de l'entrée à 1        |
+  | J       | K       | H (Horloge) | Q (Sortie)       | Q̅ (Sortie complémentaire) | **Commentaire**             |
+  |---------|---------|-------------|------------------|----------------------------|------------------------------|
+  | 0       | 0       | 1 (↑)       | Qn (Maintien)    | Q̅n (Maintien)             | Pas de changement d'état     |
+  | 0       | 1       | 1 (↑)       | 0                | 1                          | Réinitialisation             |
+  | 1       | 0       | 1 (↑)       | 1                | 0                          | Mise à 1                     |
+  | 1       | 1       | 1 (↑)       | Q̅n (Bascule)    | Qn (Bascule)               | Inversion de l'état (toggle) |
 
 - **Logigramme** :
 
-  *(Espace pour l'image du logigramme de la bascule D)*
+  *(Espace pour l'image du logigramme de la bascule JK avec horloge)*
 
 - **Chronogramme** :
 
-  *(Espace pour l'image du chronogramme de la bascule D)*
+  *(Espace pour l'image du chronogramme de la bascule JK avec horloge)*
 
 ---
 
-### 4. Bascule T (Toggle) - **Synchrone**
+### 4. Bascule D (Delay) - **Synchrone**
 
-| **Définition**                                                                                                                                                                                                                     | **Symbole**                  |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
-| La bascule T est un type de bascule qui inverse son état à chaque impulsion d'horloge. Comme elle nécessite un signal d'horloge pour basculer d’un état à l’autre, elle est classée comme une bascule synchrone.                   | ![T](https://github.com/user-attachments/assets/2e9698f7-24e1-41b6-bd9d-1eca77a5efde) |
+| **Définition**                                                                                                                                                                                                                     | **Symbole (Front Montant)**                  | **Symbole (Front Descendant)**                  |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|-------------------------------------------------|
+| La bascule D ou bascule à retard est utilisée pour introduire un délai dans un circuit. Elle a une seule entrée D et prend en compte cette entrée lors des transitions d'horloge, ce qui en fait une bascule synchrone.           | *(Espace pour le symbole avec front montant)*| *(Espace pour le symbole avec front descendant)*|
 
 - **Équation Logique** :
-  - $` Q_{n+1} = T \cdot \overline{Q_n} + \overline{T} \cdot Q_n `$ ou plus simplement $` Q_{n+1} = Q_n \oplus T `$
+  - $` Q_{n+1} = D `$ lorsque l’horloge est sur un front montant.
 
 - **Table de Vérité** :
 
-  | T       | Q (Sortie)       | Q̅ (Sortie complémentaire) | **Commentaire**                  |
-  |---------|------------------|----------------------------|-----------------------------------|
-  | 0       | Qn (Maintien)    | Q̅n (Maintien)             | Pas de changement d'état         |
-  | 1       | Q̅n (Bascule)    | Qn (Bascule)               | Inversion de l'état (toggle)     |
+  | D       | H (Horloge) | Q (Sortie)       | Q̅ (Sortie complémentaire) | **Commentaire**                 |
+  |---------|-------------|------------------|----------------------------|----------------------------------|
+  | 0       | 1 (↑)       | 0                | 1                          | Réinitialisation                |
+  | 1       | 1 (↑)       | 1                | 0                          | Stockage de l'entrée à 1        |
 
 - **Logigramme** :
 
-  *(Espace pour l'image du logigramme de la bascule T)*
+  *(Espace pour l'image du logigramme de la bascule D avec horloge)*
 
 - **Chronogramme** :
 
-  *(Espace pour l'image du chronogramme de la bascule T)*
+  *(Espace pour l'image du chronogramme de la bascule D avec horloge)*
 
+---
+
+### 5. Bascule T (Toggle) - **Synchrone**
+
+| **Définition**                                                                                                                                                                                                                     | **Symbole (Front Montant)**                  | **Symbole (Front Descendant)**                  |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|-------------------------------------------------|
+| La bascule T est un type de bascule qui inverse son état à chaque impulsion d'horloge. Elle se déclenche avec un signal d'horloge, et son état bascule à chaque front actif.                   | *(Espace pour le symbole avec front montant)*| *(Espace pour le symbole avec front descendant)*|
+
+- **Équation Logique** :
+  - $` Q_{n+1} = Q_n \oplus T `$ lorsque l’horloge est sur un front montant.
+
+- **Table de Vérité** :
+
+  | T       | H (Horloge) | Q (Sortie)       | Q̅ (Sortie complémentaire) | **Commentaire**                  |
+  |---------|-------------|------------------|----------------------------|-----------------------------------|
+  | 0       | 1 (↑)       | Qn (Maintien)    | Q̅n (Maintien)             | Pas de changement d'état         |
+  | 1       | 1 (↑)       | Q̅n (Bascule)    | Qn (Bascule)               | Inversion de l'état (toggle)     |
+
+- **Logigramme** :
+
+  *(Espace pour l'image du logigramme de la bascule T avec horloge)*
+
+- **Chronogramme** :
+
+  *(Espace pour l'image du chronogramme de la bascule T avec horloge)*
 
 <hr>
 <h3 align="center"> 🧑🏻‍💻 | Made By : <a href="https://github.com/mohamedtalhaouii" target="_blank">Mohamed Talhaoui</a></h3>
