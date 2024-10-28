@@ -258,7 +258,7 @@ l’état des variables d’entrée mais aussi de l’état précédant des vari
 
 | **Définition**                                                                                                                                                                                                                     | **Symbole (Front Montant)**                  | **Symbole (Front Descendant)**                  |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|-------------------------------------------------|
-| La bascule T est un type de bascule qui inverse son état à chaque impulsion d'horloge. Elle se déclenche avec un signal d'horloge, et son état bascule à chaque front actif.                   | *(Espace pour le symbole avec front montant)*| *(Espace pour le symbole avec front descendant)*|
+| La bascule T est un type de bascule qui inverse son état à chaque impulsion d'horloge. Elle se déclenche avec un signal d'horloge, et son état bascule à chaque front actif.                   | ![T MONT](https://github.com/user-attachments/assets/995c30b0-21a9-40fb-947f-74b0d9f765ec)| ![T DESC](https://github.com/user-attachments/assets/bee63aaf-7459-4833-b481-61b6e17fac59)|
 
 - **Équation Logique** :
   - $` Q_{n+1} = Q_n \oplus T `$ lorsque l’horloge est sur un front montant.
