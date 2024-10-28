@@ -144,7 +144,7 @@ l’état des variables d’entrée mais aussi de l’état précédant des vari
 ![logique-sequentielle](https://github.com/user-attachments/assets/a2bb8ae8-8510-4579-b787-74b9a01bc90d)
 
 
-### 1. Bascule RS (Set-Reset) - **Asynchrone**
+### Bascule RS (Set-Reset) - **Asynchrone**
 
 | **Définition**                                                                                                                                                                                                                     | **Symbole**                  |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
@@ -162,9 +162,13 @@ l’état des variables d’entrée mais aussi de l’état précédant des vari
   | 1       | 0         | 1                | 0                          | Mise à 1                 |
   | 1       | 1         | Indéterminé      | Indéterminé                | État non défini          |
 
-- **Logigramme** :
+- **Logigramme avec NAND** :
 
-  *(Espace pour l'image du logigramme de la bascule RS)*
+  ![RS NAND](https://github.com/user-attachments/assets/29a6fee3-ffb6-4abc-a13f-1de3476bf8e1)
+
+- **Logigramme avec NOR** :
+
+  ![RS NOR](https://github.com/user-attachments/assets/98bfc5a6-8cf3-4438-a1bf-1ac51a01d85f)
 
 - **Chronogramme** :
 
@@ -172,7 +176,7 @@ l’état des variables d’entrée mais aussi de l’état précédant des vari
 
 ---
 
-### 2. Bascule RSH (Reset-Set-Hold) - **Synchrone**
+### Bascule RSH (Reset-Set-Hold) - **Synchrone**
 
 | **Définition**                                                                                                                                                                                                                     | **Symbole (Front Montant)**                  | **Symbole (Front Descendant)**                  |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|-------------------------------------------------|
@@ -192,7 +196,7 @@ l’état des variables d’entrée mais aussi de l’état précédant des vari
 
 - **Logigramme** :
 
-  *(Espace pour l'image du logigramme de la bascule RSH avec horloge)*
+  ![RSH](https://github.com/user-attachments/assets/dfbecc44-f077-425c-885f-7e4ad0c33386)
 
 - **Chronogramme** :
 
@@ -200,7 +204,7 @@ l’état des variables d’entrée mais aussi de l’état précédant des vari
 
 ---
 
-### 3. Bascule JK - **Synchrone**
+### Bascule JK - **Synchrone**
 
 | **Définition**                                                                                                                                                                                                                     | **Symbole (Front Montant)**                  | **Symbole (Front Descendant)**                  |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|-------------------------------------------------|
@@ -220,7 +224,7 @@ l’état des variables d’entrée mais aussi de l’état précédant des vari
 
 - **Logigramme** :
 
-  *(Espace pour l'image du logigramme de la bascule JK avec horloge)*
+  ![JK](https://github.com/user-attachments/assets/9603aaf5-0547-4a03-94ef-f1773be15245)
 
 - **Chronogramme** :
 
@@ -228,7 +232,7 @@ l’état des variables d’entrée mais aussi de l’état précédant des vari
 
 ---
 
-### 4. Bascule D (Delay) - **Synchrone**
+### Bascule D (Delay) - **Synchrone**
 
 | **Définition**                                                                                                                                                                                                                     | **Symbole (Front Montant)**                  | **Symbole (Front Descendant)**                  |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|-------------------------------------------------|
@@ -246,7 +250,7 @@ l’état des variables d’entrée mais aussi de l’état précédant des vari
 
 - **Logigramme** :
 
-  *(Espace pour l'image du logigramme de la bascule D avec horloge)*
+  ![D](https://github.com/user-attachments/assets/3da34744-4206-4cb0-92cf-6c2212a77dbd)
 
 - **Chronogramme** :
 
@@ -254,7 +258,7 @@ l’état des variables d’entrée mais aussi de l’état précédant des vari
 
 ---
 
-### 5. Bascule T (Toggle) - **Synchrone**
+### Bascule T (Toggle) - **Synchrone**
 
 | **Définition**                                                                                                                                                                                                                     | **Symbole (Front Montant)**                  | **Symbole (Front Descendant)**                  |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|-------------------------------------------------|
@@ -272,7 +276,7 @@ l’état des variables d’entrée mais aussi de l’état précédant des vari
 
 - **Logigramme** :
 
-  *(Espace pour l'image du logigramme de la bascule T avec horloge)*
+  ![T](https://github.com/user-attachments/assets/f3b2e098-2db0-4d94-89bc-b251759a2c74)
 
 - **Chronogramme** :
 
