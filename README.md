@@ -148,7 +148,7 @@ l’état des variables d’entrée mais aussi de l’état précédant des vari
 
 | **Définition**                                                                                                                                                                                                                     | **Symbole**                  |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
-| La bascule SR est un type de bascule qui a deux entrées (Set et Reset) et une sortie. Elle permet de mémoriser l'état logique (1 ou 0) en fonction des valeurs de ses entrées. Elle fonctionne en mode asynchrone.                | *(Espace pour l'image du symbole de la bascule SR)* |
+| La bascule SR est un type de bascule qui a deux entrées (Set et Reset) et une sortie. Elle permet de mémoriser l'état logique (1 ou 0) en fonction des valeurs de ses entrées. Elle fonctionne en mode asynchrone.                | ![RS](https://github.com/user-attachments/assets/0d75ad33-9923-4913-89a8-98a6fa3c3c77) |
 
 - **Équation Logique** :
   - $` Q_{n+1} = S + \overline{R} \cdot Q_n `$
@@ -176,7 +176,7 @@ l’état des variables d’entrée mais aussi de l’état précédant des vari
 
 | **Définition**                                                                                                                                                                                                                     | **Symbole (Front Montant)**                  | **Symbole (Front Descendant)**                  |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|-------------------------------------------------|
-| La bascule RSH (Reset-Set-Hold) synchronisée possède trois états : Reset, Set, et Hold. Elle nécessite un signal d'horloge pour changer d'état, ce qui la rend synchrone. "H" est ici l'entrée d'horloge.                           | *(Espace pour le symbole avec front montant)*| *(Espace pour le symbole avec front descendant)*|
+| La bascule RSH (Reset-Set-Hold) synchronisée possède trois états : Reset, Set, et Hold. Elle nécessite un signal d'horloge pour changer d'état, ce qui la rend synchrone. "H" est ici l'entrée d'horloge.                           | ![RSH MONT](https://github.com/user-attachments/assets/4c394375-0cc4-4c0e-9ee2-7b806e9bfbf4)| ![RSH DESC](https://github.com/user-attachments/assets/cc1f626d-06ee-4294-b642-6d9000ed2463)|
 
 - **Équation Logique** :
   - $` Q_{n+1} = S + \overline{R} \cdot Q_n `$ lorsque $` H `$ est sur un front montant
@@ -204,7 +204,7 @@ l’état des variables d’entrée mais aussi de l’état précédant des vari
 
 | **Définition**                                                                                                                                                                                                                     | **Symbole (Front Montant)**                  | **Symbole (Front Descendant)**                  |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|-------------------------------------------------|
-| La bascule JK est une amélioration de la bascule SR qui évite l'état indéterminé. Elle a deux entrées J (Set) et K (Reset) et nécessite un signal d'horloge pour changer d'état, ce qui en fait une bascule synchrone.             | *(Espace pour le symbole avec front montant)*| *(Espace pour le symbole avec front descendant)*|
+| La bascule JK est une amélioration de la bascule SR qui évite l'état indéterminé. Elle a deux entrées J (Set) et K (Reset) et nécessite un signal d'horloge pour changer d'état, ce qui en fait une bascule synchrone.             | ![JK MONT](https://github.com/user-attachments/assets/ce814654-99a0-4b03-8f51-43a260d60de7)| ![JK DESC](https://github.com/user-attachments/assets/f101b152-daaf-45f1-8ba8-5a6baed80c33)|
 
 - **Équation Logique** :
   - $` Q_{n+1} = J \cdot \overline{Q_n} + \overline{K} \cdot Q_n `$ lorsque l’horloge est sur un front montant.
@@ -232,7 +232,7 @@ l’état des variables d’entrée mais aussi de l’état précédant des vari
 
 | **Définition**                                                                                                                                                                                                                     | **Symbole (Front Montant)**                  | **Symbole (Front Descendant)**                  |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|-------------------------------------------------|
-| La bascule D ou bascule à retard est utilisée pour introduire un délai dans un circuit. Elle a une seule entrée D et prend en compte cette entrée lors des transitions d'horloge, ce qui en fait une bascule synchrone.           | *(Espace pour le symbole avec front montant)*| *(Espace pour le symbole avec front descendant)*|
+| La bascule D ou bascule à retard est utilisée pour introduire un délai dans un circuit. Elle a une seule entrée D et prend en compte cette entrée lors des transitions d'horloge, ce qui en fait une bascule synchrone.           | ![D MONT](https://github.com/user-attachments/assets/767720e8-a4d9-41a0-902d-c114ecfc932b)| ![D DESC](https://github.com/user-attachments/assets/b3093dcd-e7cd-473f-a083-759454ec98dd)|
 
 - **Équation Logique** :
   - $` Q_{n+1} = D `$ lorsque l’horloge est sur un front montant.
