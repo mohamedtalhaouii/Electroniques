@@ -144,11 +144,11 @@ l’état des variables d’entrée mais aussi de l’état précédant des vari
 ![logique-sequentielle](https://github.com/user-attachments/assets/a2bb8ae8-8510-4579-b787-74b9a01bc90d)
 
 
-### 1. Bascule SR (Set-Reset) - **Asynchrone**
+### 1. Bascule RS (Set-Reset) - **Asynchrone**
 
 | **Définition**                                                                                                                                                                                                                     | **Symbole**                  |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
-| La bascule SR est un type de bascule qui a deux entrées (Set et Reset) et une sortie. Elle permet de mémoriser l'état logique (1 ou 0) en fonction des valeurs de ses entrées. Elle fonctionne en mode asynchrone.                | ![RS](https://github.com/user-attachments/assets/0d75ad33-9923-4913-89a8-98a6fa3c3c77) |
+| La bascule RS est un type de bascule qui a deux entrées (Set et Reset) et une sortie. Elle permet de mémoriser l'état logique (1 ou 0) en fonction des valeurs de ses entrées. Elle fonctionne en mode asynchrone.                | ![RS](https://github.com/user-attachments/assets/0d75ad33-9923-4913-89a8-98a6fa3c3c77) |
 
 - **Équation Logique** :
   - $` Q_{n+1} = S + \overline{R} \cdot Q_n `$
@@ -164,11 +164,11 @@ l’état des variables d’entrée mais aussi de l’état précédant des vari
 
 - **Logigramme** :
 
-  *(Espace pour l'image du logigramme de la bascule SR)*
+  *(Espace pour l'image du logigramme de la bascule RS)*
 
 - **Chronogramme** :
 
-  *(Espace pour l'image du chronogramme de la bascule SR)*
+  *(Espace pour l'image du chronogramme de la bascule RS)*
 
 ---
 
@@ -204,7 +204,7 @@ l’état des variables d’entrée mais aussi de l’état précédant des vari
 
 | **Définition**                                                                                                                                                                                                                     | **Symbole (Front Montant)**                  | **Symbole (Front Descendant)**                  |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|-------------------------------------------------|
-| La bascule JK est une amélioration de la bascule SR qui évite l'état indéterminé. Elle a deux entrées J (Set) et K (Reset) et nécessite un signal d'horloge pour changer d'état, ce qui en fait une bascule synchrone.             | ![JK MONT](https://github.com/user-attachments/assets/ce814654-99a0-4b03-8f51-43a260d60de7)| ![JK DESC](https://github.com/user-attachments/assets/f101b152-daaf-45f1-8ba8-5a6baed80c33)|
+| La bascule JK est une amélioration de la bascule RS qui évite l'état indéterminé. Elle a deux entrées J (Set) et K (Reset) et nécessite un signal d'horloge pour changer d'état, ce qui en fait une bascule synchrone.             | ![JK MONT](https://github.com/user-attachments/assets/ce814654-99a0-4b03-8f51-43a260d60de7)| ![JK DESC](https://github.com/user-attachments/assets/f101b152-daaf-45f1-8ba8-5a6baed80c33)|
 
 - **Équation Logique** :
   - $` Q_{n+1} = J \cdot \overline{Q_n} + \overline{K} \cdot Q_n `$ lorsque l’horloge est sur un front montant.
