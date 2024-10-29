@@ -164,15 +164,15 @@ l’état des variables d’entrée mais aussi de l’état précédant des vari
 
 - **Logigramme avec NAND** :
 
-  ![RS NAND](https://github.com/user-attachments/assets/29a6fee3-ffb6-4abc-a13f-1de3476bf8e1)
+![RS NAND](https://github.com/user-attachments/assets/29a6fee3-ffb6-4abc-a13f-1de3476bf8e1)
 
 - **Logigramme avec NOR** :
 
-  ![RS NOR](https://github.com/user-attachments/assets/98bfc5a6-8cf3-4438-a1bf-1ac51a01d85f)
+![RS NOR](https://github.com/user-attachments/assets/98bfc5a6-8cf3-4438-a1bf-1ac51a01d85f)
 
 - **Chronogramme** :
 
-  ![RS](https://github.com/user-attachments/assets/70ed1c2e-9b9a-4b95-ad0f-5d4a36f9d076)
+![RS](https://github.com/user-attachments/assets/70ed1c2e-9b9a-4b95-ad0f-5d4a36f9d076)
 
 ---
 
@@ -196,11 +196,11 @@ l’état des variables d’entrée mais aussi de l’état précédant des vari
 
 - **Logigramme** :
 
-  ![RSH](https://github.com/user-attachments/assets/dfbecc44-f077-425c-885f-7e4ad0c33386)
+![RSH](https://github.com/user-attachments/assets/dfbecc44-f077-425c-885f-7e4ad0c33386)
 
 - **Chronogramme** :
 
-  ![RSH](https://github.com/user-attachments/assets/a3e87faf-c6b2-40a3-8c96-a4f5277f99b8)
+![RSH](https://github.com/user-attachments/assets/a3e87faf-c6b2-40a3-8c96-a4f5277f99b8)
 
 ---
 
@@ -224,11 +224,11 @@ l’état des variables d’entrée mais aussi de l’état précédant des vari
 
 - **Logigramme** :
 
-  ![JK](https://github.com/user-attachments/assets/9603aaf5-0547-4a03-94ef-f1773be15245)
+![JK](https://github.com/user-attachments/assets/9603aaf5-0547-4a03-94ef-f1773be15245)
 
 - **Chronogramme** :
 
-  ![JK](https://github.com/user-attachments/assets/b8aeb8a7-89b2-4eec-ba30-6819b3adf435)
+![JK](https://github.com/user-attachments/assets/b8aeb8a7-89b2-4eec-ba30-6819b3adf435)
 
 ---
 
@@ -250,11 +250,11 @@ l’état des variables d’entrée mais aussi de l’état précédant des vari
 
 - **Logigramme** :
 
-  ![D](https://github.com/user-attachments/assets/3da34744-4206-4cb0-92cf-6c2212a77dbd)
+![D](https://github.com/user-attachments/assets/3da34744-4206-4cb0-92cf-6c2212a77dbd)
 
 - **Chronogramme** :
 
-  ![D](https://github.com/user-attachments/assets/071510a9-6c8b-4117-ac65-fd27ed56d168)
+![D](https://github.com/user-attachments/assets/071510a9-6c8b-4117-ac65-fd27ed56d168)
 
 ---
 
@@ -276,10 +276,10 @@ l’état des variables d’entrée mais aussi de l’état précédant des vari
 
 - **Logigramme** :
 
-  ![T](https://github.com/user-attachments/assets/f3b2e098-2db0-4d94-89bc-b251759a2c74)
+![T](https://github.com/user-attachments/assets/f3b2e098-2db0-4d94-89bc-b251759a2c74)
 
 - **Chronogramme** :
 
-  ![T](https://github.com/user-attachments/assets/8b11b6bc-08ca-4441-a79c-d16663c8a7dd)
+![T](https://github.com/user-attachments/assets/8b11b6bc-08ca-4441-a79c-d16663c8a7dd)
 <hr>
 <h3 align="center"> 🧑🏻‍💻 | Made By : <a href="https://github.com/mohamedtalhaouii" target="_blank">Mohamed Talhaoui</a></h3>
