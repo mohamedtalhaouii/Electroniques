@@ -92,28 +92,28 @@ Dans la logique combinatoire, la sortie dépend uniquement des entrées actuelle
 ![Codeur-4bit](https://github.com/user-attachments/assets/4e370849-0151-4098-b7fa-423af09cf32b)
 
 ### Décodeur - 7-Segments :
-   - **Formules Algébriques pour le Décodeur BCD - 7 Segments :**
+- **Formules Algébriques pour le Décodeur BCD - 7 Segments :**
 
-1- **Segment a :**  
-   $`a = B + D + A C + \overline{A} \overline{C}`$
-
-2- **Segment b :**  
-   $`b = \overline{C} + A B + \overline{A} \, \overline{B}`$
-
-3- **Segment c :**  
-   $`c = A + C + \overline{B}`$
-
-4- **Segment d :**  
-   $`d = D + \overline{A} \, \overline{B} + B \, \overline{C} + \overline{C} \, \overline{A} + A B C`$
-
-5- **Segment e :**  
-   $`e = \overline{A} B + \overline{A} C`$
-
-6- **Segment f :**  
-   $`f = D + \overline{A} \, \overline{B} + B \, \overline{C} + C \, \overline{A}`$
-
-7- **Segment g :**  
-   $`g = D + \overline{A} \, \overline{C} + C \, \overline{B} + B \, \overline{C}`$
+  1- **Segment a :**  
+     $`a = B + D + A C + \overline{A} \overline{C}`$
+  
+  2- **Segment b :**  
+     $`b = \overline{C} + A B + \overline{A} \, \overline{B}`$
+  
+  3- **Segment c :**  
+     $`c = A + C + \overline{B}`$
+  
+  4- **Segment d :**  
+     $`d = D + \overline{A} \, \overline{B} + B \, \overline{C} + \overline{C} \, \overline{A} + A B C`$
+  
+  5- **Segment e :**  
+     $`e = \overline{A} B + \overline{A} C`$
+  
+  6- **Segment f :**  
+     $`f = D + \overline{A} \, \overline{B} + B \, \overline{C} + C \, \overline{A}`$
+  
+  7- **Segment g :**  
+     $`g = D + \overline{A} \, \overline{C} + C \, \overline{B} + B \, \overline{C}`$
   
   - **Logigramme :**
 
