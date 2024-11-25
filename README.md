@@ -114,8 +114,8 @@ Dans la logique combinatoire, la sortie dépend uniquement des entrées actuelle
   
   7- **Segment g :**  
      $`g = D + \overline{A} \, \overline{C} + C \, \overline{B} + B \, \overline{C}`$
-  
-  - **Logigramme :**
+
+- **Logigramme :**
 
 ![7-Segment](https://github.com/user-attachments/assets/cd81b6af-1950-4c2e-8e6a-081e28c74d43)
 
