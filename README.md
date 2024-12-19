@@ -315,36 +315,5 @@ l’état des variables d’entrée mais aussi de l’état précédant des vari
 
   *(Espace pour le chronogramme du compteur asynchrone)*
 
----
-
-### 7. Compteur Synchrone (Synchronous Counter)
-
-| **Définition**                                                                                                                                                                                                                     | **Symbole (Montée)**                           | **Symbole (Décompte)**                        |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------|------------------------------------------------|
-| Un compteur synchrone est un compteur dans lequel toutes les bascules reçoivent le signal d’horloge en même temps, ce qui permet à tous les bits de changer simultanément. Les compteurs synchrones peuvent également être configurés en mode montée (up counter) ou décompte (down counter). | *(Espace pour le symbole de montée)*           | *(Espace pour le symbole de décompte)*         |
-
-- **Équations Logiques** :
-  - Compteur de montée : L’état de chaque bit dépend d’une logique combinatoire qui prend en compte tous les bits de rang inférieur.
-  - Compteur de décompte : L’état de chaque bit dépend de la logique combinatoire pour réaliser la décompte à partir de l’état actuel.
-
-- **Table de Vérité** (exemple pour un compteur 3 bits synchrone) :
-
-  | Compte | État (Montée) | État (Décompte) | **Commentaire**              |
-  |--------|---------------|-----------------|------------------------------|
-  | 0      | 000           | 111             | État initial                 |
-  | 1      | 001           | 110             | Premier comptage             |
-  | 2      | 010           | 101             | Deuxième comptage            |
-  | 3      | 011           | 100             | Troisième comptage           |
-  | 4      | 100           | 011             | Quatrième comptage           |
-  | ...    | ...           | ...             | Continue selon la limite     |
-
-- **Logigramme** :
-
-  *(Espace pour le logigramme du compteur synchrone de montée ou de décompte)*
-
-- **Chronogramme** :
-
-  *(Espace pour le chronogramme du compteur synchrone)*
-
 <hr>
 <h3 align="center"> 🧑🏻‍💻 | Made By : <a href="https://github.com/mohamedtalhaouii" target="_blank">Mohamed Talhaoui</a></h3>
