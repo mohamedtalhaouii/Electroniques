@@ -1,10 +1,10 @@
 # **Index des Chapitres**
 
-**[1- Algèbre de Bool](#algèbre-de-bool)**
+- **[Algèbre de Bool](#algèbre-de-bool)**
 
-**[2- Logique Combinatoire](#logique-combinatoire)**
+- **[Logique Combinatoire](#logique-combinatoire)**
 
-**[3- Logique Séquentielle](#logique-séquentielle)**
+- **[Logique Séquentielle](#logique-séquentielle)**
 
 
 <hr>
