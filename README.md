@@ -2,13 +2,13 @@
 
 - **[Systèmes de Numération & Codage de l’Information](#algèbre-de-bool)**
 - **[Algèbre de Bool & Portes Logiques](#algèbre-de-bool)**
-- **[Logique Combinatoire](#logique-combinatoire)**
-- **[Logique Séquentielle](#logique-séquentielle)**
+- **[Circuits Combinatoire](#logique-combinatoire)**
+- **[Circuits Séquentielle](#logique-séquentielle)**
 
 
 <hr>
 
-# **Algèbre de Bool**
+# **Algèbre de Bool & Portes Logiques**
 ### [🔝 Retour à l'index](#index-des-chapitres)
 
 L'algèbre de Bool est le fondement des circuits logiques, utilisée pour modéliser des opérations logiques binaires.
@@ -43,7 +43,7 @@ Chaque circuit combinatoire peut être décrit à l'aide d'une table de vérité
 
 ---
 
-# **Logique Combinatoire**
+# **Circuits Combinatoire**
 ### [🔝 Retour à l'index](#index-des-chapitres)
 
 Dans la logique combinatoire, la sortie dépend uniquement des entrées actuelles.
@@ -136,7 +136,7 @@ Dans la logique combinatoire, la sortie dépend uniquement des entrées actuelle
 - **Tableau de Karnaugh** : Utile pour simplifier des fonctions à plusieurs variables en repérant les groupes de 1.
 
 
-# **Logique Séquentielle**
+# **Circuits Séquentielle**
 ### [🔝 Retour à l'index](#index-des-chapitres)
 Un système séquentiel est un système logique dont l’état des variables de sortie dépend non seulement de
 l’état des variables d’entrée mais aussi de l’état précédant des variables de sortie. 
