@@ -6,7 +6,155 @@
 - **[Circuits Séquentielle](#circuits-séquentielle)**
 
 
-<hr>
+---
+
+# **Systèmes de Numération & Codage de l’Information**
+### [🔝 Retour à l'index](#index-des-chapitres-)
+
+## 1. Conversion en décimal
+
+- **Binaire → Décimal :**
+
+$`N = \sum_{i=0}^{n-1} b_i \cdot 2^i`$
+
+- **Octal → Décimal :**
+
+$`
+N = \sum_{i=0}^{n-1} o_i \cdot 8^i
+`$
+
+- **Hexadécimal → Décimal :**
+
+$`N = \sum_{i=0}^{n-1} h_i \cdot 16^i`$
+
+
+## 2. Conversion en binaire
+
+- **Décimal → Binaire :**
+
+Méthode : divisions successives jusqu’à obtention des restes.
+(Formule implicite, pas mathémique.)
+
+- **Octal → Binaire :**
+
+$`\text{Chaque chiffre octal } o_i \rightarrow \text{ bloc binaire de 3 bits}`$
+
+| Octal | Binaire |
+| ----- | ------- |
+| 0     | 000     |
+| 1     | 001     |
+| 2     | 010     |
+| 3     | 011     |
+| 4     | 100     |
+| 5     | 101     |
+| 6     | 110     |
+| 7     | 111     |
+
+- **Hexadécimal → Binaire :**
+
+$`\text{Chaque chiffre hexadécimal } h_i \rightarrow \text{ bloc binaire de 4 bits}`$
+
+| Hex | Binaire |
+| ----- | ------- |
+| 0   | 0000    |
+| 1   | 0001    |
+| 2   | 0010    |
+| 3   | 0011    |
+| 4   | 0100    |
+| 5   | 0101    |
+| 6   | 0110    |
+| 7   | 0111    |
+| 8   | 1000    |
+| 9   | 1001    |
+| A   | 1010    |
+| B   | 1011    |
+| C   | 1100    |
+| D   | 1101    |
+| E   | 1110    |
+| F   | 1111    |
+
+
+## 3. Codage des entiers négatifs
+
+- **Signe + Valeur Absolue :**
+
+$`N = s|N|`$
+
+> Avec :
+> - ( s = 0 ) → nombre positif
+> - ( s = 1 ) → nombre négatif
+
+- **Complément à 1 (C1) :**
+
+$`N_{C1} = \overline{N}`$
+
+- **Complément à 2 (C2) :**
+
+$`N_{C2} = N_{C1} + 1`$
+
+> Plage sur ( n ) bits :
+> - $`-2^{n-1} \leq N \leq 2^{n-1}-1`$
+
+
+## 4. Codage des nombres réels
+
+- **Virgule fixe :**
+
+$`N = \text{Partie entière} + \sum_{i=1}^{m} f_i \cdot 2^{-i}`$
+
+- **Virgule flottante (IEEE 754) :**
+
+$`N = (-1)^s \times 1.m \times 2^{(E - \text{biais})}`$
+
+> **Biais (exponent bias) :**
+> - **Simple précision :** $`\text{biais} = 127`$
+> - **Double précision :** $`\text{biais} = 1023`$
+
+
+## 5. Codage BCD (Binary Coded Decimal)
+
+- **Définition :**
+
+$`\text{1 chiffre décimal } d \rightarrow \text{mot de 4 bits } (d_3 d_2 d_1 d_0)`$
+
+- **Tableau BCD (Binary Coded Decimal) :**
+
+| Décimal  | BCD  |
+| ----- | ------ |
+| 0     | 0000 |
+| 1     | 0001 |
+| 2     | 0010 |
+| 3     | 0011 |
+| 4     | 0100 |
+| 5     | 0101 |
+| 6     | 0110 |
+| 7     | 0111 |
+| 8     | 1000 |
+| 9     | 1001 |
+
+
+## 6. Codage ASCII
+
+- **Caractères ASCII :**
+
+$`\text{Code binaire} = \text{valeur décimale ASCII convertie en binaire (7 bits)}`$
+
+- Plages
+
+  * **Chiffres :**
+    $`48 \rightarrow 57`$
+    
+  * **Lettres majuscules :**
+    $`65 \rightarrow 90`$
+    
+  * **Lettres minuscules :**
+    $`97 \rightarrow 122`$
+    
+  * **Codes contrôle :**
+    $`0 \rightarrow 31`$
+
+
+---
 
 # **Algèbre de Bool & Portes Logiques**
 ### [🔝 Retour à l'index](#index-des-chapitres-)
