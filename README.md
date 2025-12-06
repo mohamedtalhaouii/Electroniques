@@ -1,6 +1,7 @@
 # **Index des Chapitres :**
 
-- **[Algèbre de Bool](#algèbre-de-bool)**
+- **[Systèmes de Numération & Codage de l’Information](#algèbre-de-bool)**
+- **[Algèbre de Bool & Portes Logiques](#algèbre-de-bool)**
 - **[Logique Combinatoire](#logique-combinatoire)**
 - **[Logique Séquentielle](#logique-séquentielle)**
 
