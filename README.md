@@ -133,9 +133,31 @@ $`\text{1 chiffre décimal } d \rightarrow \text{mot de 4 bits } (d_3 d_2 d_1 d_
 | 9     | 1001 |
 
 
-## 6. Codage ASCII
 
-- **Caractères ASCII :**
+## 6. Codage Gray (Code réfléchi)
+
+- **Conversion Binaire → Gray  ( $`B = b_n b_{n-1} ... b_1 b_0`$ ) :**
+ 
+  - Le bit de poids fort reste identique :
+    $`g_n = b_n`$
+  
+  - Chaque bit suivant :
+    $`g_i = b_{i+1} \oplus b_i`$
+
+> où ( $`\oplus`$ ) = XOR.
+
+- **Conversion Gray → Binaire  ( $`G = g_n g_{n-1} ... g_1 g_0 `$ ) :**
+
+  - Le bit de poids fort :
+    $`b_n = g_n`$
+  
+  - Chaque bit suivant :
+    $`b_i = b_{i+1} \oplus g_i`$
+
+
+## 7. Codage ASCII
+
+- **Caractères [ASCII](https://www.ascii-code.com/) :**
 
 $`\text{Code binaire} = \text{valeur décimale ASCII convertie en binaire (7 bits)}`$
 
@@ -152,7 +174,6 @@ $`\text{Code binaire} = \text{valeur décimale ASCII convertie en binaire (7 bit
     
   * **Codes contrôle :**
     $`0 \rightarrow 31`$
-
 
 ---
 
