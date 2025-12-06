@@ -19,9 +19,7 @@ $`N = \sum_{i=0}^{n-1} b_i \cdot 2^i`$
 
 - **Octal → Décimal :**
 
-$`
-N = \sum_{i=0}^{n-1} o_i \cdot 8^i
-`$
+$`N = \sum_{i=0}^{n-1} o_i \cdot 8^i`$
 
 - **Hexadécimal → Décimal :**
 
@@ -31,47 +29,47 @@ $`N = \sum_{i=0}^{n-1} h_i \cdot 16^i`$
 ## 2. Conversion en binaire
 
 - **Décimal → Binaire :**
+  - $`\text{Diviser le nombre décimal par 2.}`$
+  - $`\text{Noter le reste (0 ou 1).}`$
+  - $`\text{Répéter la division avec le quotient jusqu’à ce que le quotient = 0.}`$
+  - $`\text{Le code binaire est la lecture des restes de bas en haut.}`$
 
-Méthode : divisions successives jusqu’à obtention des restes.
-(Formule implicite, pas mathémique.)
 
 - **Octal → Binaire :**
-
 $`\text{Chaque chiffre octal } o_i \rightarrow \text{ bloc binaire de 3 bits}`$
 
-| Octal | Binaire |
-| ----- | ------- |
-| 0     | 000     |
-| 1     | 001     |
-| 2     | 010     |
-| 3     | 011     |
-| 4     | 100     |
-| 5     | 101     |
-| 6     | 110     |
-| 7     | 111     |
+| Décimal | Octal | Binaire |
+| ----- | ----- | ------- |
+| 0     | 0     | 000     |
+| 1     | 1     | 001     |
+| 2     | 2     | 010     |
+| 3     | 3     | 011     |
+| 4     | 4     | 100     |
+| 5     | 5     | 101     |
+| 6     | 6     | 110     |
+| 7     | 7     | 111     |
 
 - **Hexadécimal → Binaire :**
-
 $`\text{Chaque chiffre hexadécimal } h_i \rightarrow \text{ bloc binaire de 4 bits}`$
 
-| Hex | Binaire |
-| ----- | ------- |
-| 0   | 0000    |
-| 1   | 0001    |
-| 2   | 0010    |
-| 3   | 0011    |
-| 4   | 0100    |
-| 5   | 0101    |
-| 6   | 0110    |
-| 7   | 0111    |
-| 8   | 1000    |
-| 9   | 1001    |
-| A   | 1010    |
-| B   | 1011    |
-| C   | 1100    |
-| D   | 1101    |
-| E   | 1110    |
-| F   | 1111    |
+| Décimal | Hex | Binaire |
+| ------- | --- | ------- |
+| 0       | 0   | 0000    |
+| 1       | 1   | 0001    |
+| 2       | 2   | 0010    |
+| 3       | 3   | 0011    |
+| 4       | 4   | 0100    |
+| 5       | 5   | 0101    |
+| 6       | 6   | 0110    |
+| 7       | 7   | 0111    |
+| 8       | 8   | 1000    |
+| 9       | 9   | 1001    |
+| 10      | A   | 1010    |
+| 11      | B   | 1011    |
+| 12      | C   | 1100    |
+| 13      | D   | 1101    |
+| 14      | E   | 1110    |
+| 15      | F   | 1111    |
 
 
 ## 3. Codage des entiers négatifs
@@ -113,8 +111,7 @@ $`N = (-1)^s \times 1.m \times 2^{(E - \text{biais})}`$
 
 ## 5. Codage BCD (Binary Coded Decimal)
 
-- **Définition :**
-
+- **Conversion Décimal → BCD :**
 $`\text{1 chiffre décimal } d \rightarrow \text{mot de 4 bits } (d_3 d_2 d_1 d_0)`$
 
 - **Tableau BCD (Binary Coded Decimal) :**
@@ -154,14 +151,31 @@ $`\text{1 chiffre décimal } d \rightarrow \text{mot de 4 bits } (d_3 d_2 d_1 d_
   - Chaque bit suivant :
     $`b_i = b_{i+1} \oplus g_i`$
 
+| Décimal | Binaire | Gray |
+| ------- | ------- | ---- |
+| 0       | 0000    | 0000 |
+| 1       | 0001    | 0001 |
+| 2       | 0010    | 0011 |
+| 3       | 0011    | 0010 |
+| 4       | 0100    | 0110 |
+| 5       | 0101    | 0111 |
+| 6       | 0110    | 0101 |
+| 7       | 0111    | 0100 |
+| 8       | 1000    | 1100 |
+| 9       | 1001    | 1101 |
+| 10      | 1010    | 1111 |
+| 11      | 1011    | 1110 |
+| 12      | 1100    | 1010 |
+| 13      | 1101    | 1011 |
+| 14      | 1110    | 1001 |
+| 15      | 1111    | 1000 |
 
 ## 7. Codage ASCII
 
 - **Caractères [ASCII](https://www.ascii-code.com/) :**
-
 $`\text{Code binaire} = \text{valeur décimale ASCII convertie en binaire (7 bits)}`$
 
-- Plages
+- **Plages :**
 
   * **Chiffres :**
     $`48 \rightarrow 57`$
