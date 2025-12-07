@@ -237,7 +237,8 @@ L'algèbre de Bool est le fondement des circuits logiques, utilisée pour modél
 ### **Mintermes, Maxtermes & Formes Canoniques :**
 
 - **Mintermes (Somme de Produits – SOP) :** Un **minterme** est un produit logique **(ET)**.
-    - Représenté par :
+
+    - **Représenté par :**
       - bit = **1** → variable non barrée
       - bit = **0** → variable barrée
 
@@ -247,15 +248,15 @@ L'algèbre de Bool est le fondement des circuits logiques, utilisée pour modél
     - $`F = \sum m_i \quad\text{(sommes des mintermes où F = 1)}`$
 
 
-- **Maxtermes (Produit de Sommes – POS) :** Un **maxterme** est une somme logique **(OU)**.
+- **Maxtermes (Produit de Sommes – PDS) :** Un **maxterme** est une somme logique **(OU)**.
 
-    - Représenté par (inverse des mintermes !) :
+    - **Représenté par :**
         - bit = **0** → variable non barrée
         - bit = **1** → variable barrée
 
 > Un maxterme vaut **0 pour une seule ligne** de la table.
 
-- **Forme canonique POS :**
+- **Forme canonique PDS :**
     - $`F = \prod M_i \quad\text{(produit des maxtermes où F = 0)}`$
 
 
