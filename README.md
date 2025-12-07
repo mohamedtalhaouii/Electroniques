@@ -202,14 +202,26 @@ L'algèbre de Bool est le fondement des circuits logiques, utilisée pour modél
   - **NON** (−) : $` \overline{A} `$
   
 ### **Propriétés Importantes :**
-  - **Loi de l’Identité** : $` A + 0 = A `$, $` A \cdot 1 = A `$
-  - **Loi de l’Annulation** : $` A + 1 = 1 `$, $` A \cdot 0 = 0 `$
-  - **Loi de l’Idempotence** : $` A + A = A `$, $` A \cdot A = A `$
-  - **Loi de la Complémentation** : $` A + \overline{A} = 1 `$, $` A \cdot \overline{A} = 0 `$
-
-### **Théorèmes de De Morgan :**
+- **Loi de l’Identité** :
+    - $` A + 0 = A `$
+    - $` A \cdot 1 = A `$
+- **Loi de l’Annulation** :
+    - $` A + 1 = 1 `$
+    - $` A \cdot 0 = 0 `$
+- **Loi de l’Idempotence** :
+    - $` A + A = A `$
+    - $` A \cdot A = A `$
+- **Loi de la Complémentation** :
+    - $` A + \overline{A} = 1 `$
+    - $` A \cdot \overline{A} = 0 `$
+- **Loi de la Réduction :**
+  - $`A + (\bar{A} \cdot B) = A + B`$
+  - $`A \cdot (\bar{A} + B) = A \cdot B`$
+- **Théorèmes de De Morgan :**
   - $` \overline{A \cdot B} = \overline{A} + \overline{B} `$
   - $` \overline{A + B} = \overline{A} \cdot \overline{B} `$
+
+
 
 ### **Symbole des Portes Logiques :**
 ![Portes-Logique](https://github.com/user-attachments/assets/0afc9b1d-eef1-434d-8a1f-523a396cc172)
