@@ -14,16 +14,13 @@
 ## 1. Conversion en décimal
 
 - **Binaire → Décimal :**
-
-$`N = \sum_{i=0}^{n-1} b_i \cdot 2^i`$
+    - $`N = \sum_{i=0}^{n-1} b_i \cdot 2^i`$
 
 - **Octal → Décimal :**
-
-$`N = \sum_{i=0}^{n-1} o_i \cdot 8^i`$
+    - $`N = \sum_{i=0}^{n-1} o_i \cdot 8^i`$
 
 - **Hexadécimal → Décimal :**
-
-$`N = \sum_{i=0}^{n-1} h_i \cdot 16^i`$
+    - $`N = \sum_{i=0}^{n-1} h_i \cdot 16^i`$
 
 
 ## 2. Conversion en binaire
@@ -75,20 +72,17 @@ $`\text{Chaque chiffre hexadécimal } h_i \rightarrow \text{ bloc binaire de 4 b
 ## 3. Codage des entiers négatifs
 
 - **Signe + Valeur Absolue :**
-
-$`N = s|N|`$
+    - $`N = s|N|`$
 
 > Avec :
 > - ( s = 0 ) → nombre positif
 > - ( s = 1 ) → nombre négatif
 
 - **Complément à 1 (C1) :**
-
-$`N_{C1} = \overline{N}`$
+    - $`N_{C1} = \overline{N}`$
 
 - **Complément à 2 (C2) :**
-
-$`N_{C2} = N_{C1} + 1`$
+    - $`N_{C2} = N_{C1} + 1`$
 
 > Plage sur ( n ) bits :
 > - $`-2^{n-1} \leq N \leq 2^{n-1}-1`$
@@ -97,12 +91,10 @@ $`N_{C2} = N_{C1} + 1`$
 ## 4. Codage des nombres réels
 
 - **Virgule fixe :**
-
-$`N = \text{Partie entière} + \sum_{i=1}^{m} f_i \cdot 2^{-i}`$
+    - $`N = \text{Partie entière} + \sum_{i=1}^{m} f_i \cdot 2^{-i}`$
 
 - **Virgule flottante (IEEE 754) :**
-
-$`N = (-1)^s \times 1.m \times 2^{(E - \text{biais})}`$
+    - $`N = (-1)^s \times 1.m \times 2^{(E - \text{biais})}`$
 
 > **Biais (exponent bias) :**
 > - **Simple précision :** $`\text{biais} = 127`$
