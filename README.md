@@ -242,11 +242,10 @@ L'algèbre de Bool est le fondement des circuits logiques, utilisée pour modél
       - bit = **1** → variable non barrée
       - bit = **0** → variable barrée
 
-> Un minterme vaut **1 pour une seule ligne** de la table de vérité.
-
 - **Forme canonique SDP :**
     - $`F = \sum m_i \quad\text{(sommes des mintermes où F = 1)}`$
 
+> Un minterme vaut **1 pour une seule ligne** de la table de vérité.
 
 - **Maxtermes (Produit de Sommes – PDS) :** Un **maxterme** est une somme logique **(OU)**.
 
@@ -254,12 +253,10 @@ L'algèbre de Bool est le fondement des circuits logiques, utilisée pour modél
         - bit = **0** → variable non barrée
         - bit = **1** → variable barrée
 
-> Un maxterme vaut **0 pour une seule ligne** de la table.
-
 - **Forme canonique PDS :**
     - $`F = \prod M_i \quad\text{(produit des maxtermes où F = 0)}`$
 
-
+> Un maxterme vaut **0 pour une seule ligne** de la table.
 
 
 ### **Symbole des Portes Logiques :**
